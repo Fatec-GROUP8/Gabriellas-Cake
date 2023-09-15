@@ -3,12 +3,13 @@ print("-----------------------------------------------------------\n Bem-Vindo(a
 def startMenu(): 
     print("-----------------------------------------------------------")
 
-    menuChoice = int(input("\n\
-    [1]Dúvidas sobre o CodeWars\n\
-    [2]Dúvidas sobre o Discord\n\
-    [3]Dúvidas sobre as Aulas \n\
-    [4]Sair\n\
-    \nEscolha uma das opções: "))
+    options = ["1 - Bolos", "2 - Tortas", "3 - Doces", "4 - Salgados", "5 - Sair"]
+    print("Escolha uma das opções para fazer um pedido:")
+
+    for option in options:
+        print(option)
+
+    menuChoice = int(input("Digite o número da opção desejada: "))
 
     if menuChoice == 1:
         stageOne()
@@ -41,12 +42,13 @@ def exitMenu(type):
 def stageOne():
     print("-----------------------------------------------------------")
 
-    answer = int(input("\n\
-    [1]Link de Acesso?\n\
-    [2]Pontuação esperada?\n\
-    [3]Quais tecnologias treinar?\n\
-    [4]Retornar ao início\n\
-    \nEscolha uma das opções: "))
+    options = ["1 - Link de Acesso?", "2 - Pontuação esperada?", "3 - Quais tecnologias treinar?", "4 - Retornar ao início"]
+    print("Escolha uma das opções para fazer um pedido:")
+
+    for option in options:
+        print(option)
+
+    answer = int(input("Digite o número da opção desejada: "))
 
     if answer == 1:
         print("\nhttps://codewars.com\n")
@@ -65,14 +67,15 @@ def stageOne():
 
 def stageTwo():
     print("-----------------------------------------------------------")
-        
-    answer = int(input("\n\
-    [1]O que o Discord faz?\n\
-    [2]Link de Acesso?\n\
-    [3]Como criar um servidor no Discord?\n\
-    [4]Retornar ao início\n\
-    \nEscolha uma das opções: "))
 
+    options = ["1 - O que o Discord faz?", "2 - Link de Acesso?", "3 - Como criar um servidor no Discord?", "4 - Retornar ao início"]
+    print("Escolha uma das opções para fazer um pedido:")
+
+    for option in options:
+        print(option)
+
+    answer = int(input("Digite o número da opção desejada: "))
+        
     if answer == 1:
         print("\nÉ uma plataforma que permiti pessoas com interesses semelhantes compartilharem e se comunicarem, com conversas por voz, vídeo e texto com amigos. Participe de comunidades diversas\n")
     elif answer == 2:
@@ -90,14 +93,15 @@ def stageTwo():
 
 def stageThree():
     print("-----------------------------------------------------------")
-        
-    answer = int(input("\n\
-    [1]Link de Acesso Portal Resilia?\n\
-    [2]Onde encontro os projetos?\n\
-    [3]Retornar ao início\n\
-    \nEscolha uma das opções: "))
 
+    options = ["1 - Link de Acesso para o Portal Resilia?", "2 - Onde encontro os projetos?", "3 - onde encontro os exercícios?", "4 - Retornar ao início"]
+    print("Escolha uma das opções para fazer um pedido:")
 
+    for option in options:
+        print(option)
+
+    answer = int(input("Digite o número da opção desejada: "))
+         
     print("-----------------------------------------------------------")
     if answer == 1:
         print("\nhttps://aluno.resilia.work\n")
@@ -113,4 +117,3 @@ def stageThree():
     exitMenu("three")
 
 startMenu()
-
