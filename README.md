@@ -1,10 +1,33 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 
 # Gabriellas-Cake
-Bem-vindo! A melhor loja de bolos do Rio de Janeiro
+Bem-vindo! Nós somos a empresa Cakes da Gabriela, temos mais de 5 anos já no mercado vendendo bolos. Atualmente atendemos na região de Cinelândia e Botafogo. Nosso compromisso é com sua satisfação, realizando sonhos em cada fatia.
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNVMx2QUlrnqc6dXY-Y0DTRdQV6UpmzU6FQ&usqp=CAU" alt="Bolo da loja Gabriella's Cake">
+
+## 🗒 Descrição do projeto
+O projeto é uma interface de uma loja de bolos, gerindo a venda desde a criação do Menu até a realização e finalização do pedido. Foi utilizado as seguintes estruturas e o motivo do uso:
+
+### • Funções:
+   Facilita a reutilização dos códigos, assim como a manutenção das funcionalidades.
+### • Dicionário/Listas:
+  Organizar de forma eficiente os dados armazenados. ex: O menu, o preço do produto.
+### • Input:
+  Permite o usuário escolher os doces que preferir.
+### • Condicionais if, elif, else:
+   Permite maior controle dos caminhos que o usuário poderá seguir, direcionando-o de acordo com sua escolha.
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+* Você instalou a versão mais recente do `Python`
+* Você tem uma máquina `<Windows / Linux / Mac>`.
+* Você leu a <a href="#">descrição do projeto</a>
+
 
 ## 🤝 Colaboradores
 
