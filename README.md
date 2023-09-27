@@ -49,7 +49,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/albinosf">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Albino Fernandes GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/52610317?v=4" width="100px;" alt="Foto do Albino Fernandes GitHub"/><br>
         <sub>
           <b>Albino Fernandes</b>
         </sub>
