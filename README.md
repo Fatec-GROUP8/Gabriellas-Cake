@@ -9,7 +9,7 @@ Bem-vindo! Nós somos a empresa Cakes da Gabriela, temos mais de 5 anos já no m
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNVMx2QUlrnqc6dXY-Y0DTRdQV6UpmzU6FQ&usqp=CAU" alt="Bolo da loja Gabriella's Cake">
 
 ## 🗒 Descrição do projeto
-O projeto é uma interface de uma loja de bolos, gerindo a venda desde a criação do Menu até a realização e finalização do pedido. Foi utilizado as seguintes estruturas e o motivo do uso:
+O projeto é uma interface de uma loja de bolos, gerindo a venda desde a criação do Menu até a realização e finalização do pedido. Criado com Python no Visual Studio Code. Foi utilizado as seguintes estruturas e o motivo do uso:
 
 ### • Funções:
    Facilita a reutilização dos códigos, assim como a manutenção das funcionalidades.
@@ -28,6 +28,18 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`.
 * Você leu a <a href="#">descrição do projeto</a>
 
+## 🚀 Instalando <Gabriellas-Cake>
+
+Para instalar o projeto Gabriella's Cake, siga estas etapas:
+
+1°. Abra seu Visual Studio Code e o terminal de sua preferência.
+
+2°. Clonar o repositório-> Digite o código a seguir no seu terminal e de enter.
+```
+git clone https://github.com/Fatec-GROUP8/Gabriellas-Cake.git
+```
+
+3°. Use a interface como preferir.
 
 ## 🤝 Colaboradores
 
